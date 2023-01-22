@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg,#472183 10%,#4B56D2 20%, #82C3EC,#F1F6F5);
+    background-repeat: no-repeat;
+    color: #472183;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2),
+                 4px 4px 4px rgba(0, 0, 0, 0.2),
+                 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+table{
+    border-radius: 10px;
+    background: #F1F6F5;
+    box-shadow: 0 0 5px #4B56D2,
+                0 0 10px #4B56D2,
+                0 0 15px #4B56D2,
+                0 0 20px #4B56D2,
+                0 0 20px #4B56D2;
+}
+caption{
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #4B56D2,
+                0 0 10px #4B56D2,
+                0 0 15px #4B56D2,
+                0 0 20px #4B56D2,
+                0 0 20px #4B56D2,
+                0 0 25px #4B56D2;
+}
+td{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+th{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15spx;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+.left_side{
+    color: white;
+    background-color: #3A4F7A;
+}
+label{
+    position: relative;
+    bottom: 10px;
+}
+li{
+    list-style: none;
+    text-align: left;
+}
+li::before {
+    content: "\25D7";
+    color: orange;
+    font-size: 15px;
+}
+.prog{
+    padding: 9px;
+    
+}
+.underline{
+    text-decoration: underline orange 2px;
+}
+.size{
+    font-size: 20px;
+    text-align: left;
+}
+.size::before{
+    content: "\25D7";
+    color: orange;
+    font-size: 30px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logohover{
+    display: flex;
+    padding-top: 40px;
+    padding-inline: 20px;
+    padding-bottom: 10px;
+    height: 40px;
+    width: 40px;
+    transition: ease-in 0.5s;
+}
+.logohover:hover{
+    height: 80px;
+    width: 80px;
+    transition: ease-out 0.5s;
+}
